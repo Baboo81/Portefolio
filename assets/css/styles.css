@@ -9,3 +9,29 @@
     --blanc: #ffffff;
 }
 
+#pinkL
+{
+    background-color: var(--roseLeger);
+}
+
+#pink
+{
+    background-color: var(--rose);
+}
+
+#white
+{
+    background-color: var(--blanc);
+}
+
+#blue
+{
+    background-color: var(--blue);
+}
+
+footer
+{
+    background-color: var(--vertLeger);
+    height: 100px;
+}
+

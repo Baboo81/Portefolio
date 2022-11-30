@@ -22,7 +22,7 @@ body
 header
 {
     background-color: var(--roseLeger);
-    height: 250px;
+    height: 350px;
     width: 100%;
     border: 1px solid black;
     display: flex;
@@ -34,29 +34,29 @@ main
 }
 
 
-.mainAside
+.pink
 {
-    background-color: rgb(68, 135, 211);
+    background-color: var(--rose);
     height: 600px;
-    width: 30vw;
+    width: 50vw;
     border: 1px solid black;
     flex-direction: row;
     
 }
 
-.mainArticle
+.white
 {
-    background-color: grey;
+    background-color: var(--blanc);
     height: 600px;
-    width: 70vw;
+    width: 50vw;
     border: 1px solid black;
     flex-direction: row;
 }
 
-.pub
+.blue
 {
-    background-color: rgb(238, 60, 48);
-    height: 200px;
+    background-color: var(--blue);
+    height: 600px;
     width: 100%;
     border: 1px solid black;
 }

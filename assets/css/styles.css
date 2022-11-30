@@ -9,6 +9,11 @@
     --blanc: #ffffff;
 }
 
+body
+{
+    background-color: black;
+}
+
 #pinkL
 {
     background-color: var(--roseLeger);

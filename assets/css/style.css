@@ -24,7 +24,6 @@ header
     background-color: var(--roseLeger);
     height: 350px;
     width: 100%;
-    border: 1px solid black;
     display: flex;
 }
 
@@ -39,7 +38,6 @@ main
     background-color: var(--rose);
     height: 600px;
     width: 50vw;
-    border: 1px solid black;
     flex-direction: row;
     
 }
@@ -49,7 +47,6 @@ main
     background-color: var(--blanc);
     height: 600px;
     width: 50vw;
-    border: 1px solid black;
     flex-direction: row;
 }
 
@@ -58,7 +55,6 @@ main
     background-color: var(--blue);
     height: 600px;
     width: 100%;
-    border: 1px solid black;
 }
 
 div
@@ -71,7 +67,6 @@ div
     background-color: var(--blanc);
     height: 600px;
     width: 50vw;
-    border: 1px solid black;
     flex-direction: row;
 }
 
@@ -80,7 +75,6 @@ div
     background-color: var(--rose);
     height: 600px;
     width: 50vw;
-    border: 1px solid black;
     flex-direction: row;
 }
 
@@ -93,9 +87,8 @@ footer > div
 footer
 {
     background-color: var(--vertLeger);
-    border: 1px solid black;
     width: 100%;
-    height: 200px;
+    height: 100px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;

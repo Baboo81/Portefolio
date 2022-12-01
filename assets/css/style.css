@@ -83,7 +83,7 @@ main
 }
 
 
-.pink
+.pinkBox1
 {
     background-color: var(--rose);
     height: 600px;
@@ -92,7 +92,7 @@ main
     
 }
 
-.white
+.whiteBox1
 {
     background-color: var(--blanc);
     height: 600px;
@@ -100,7 +100,7 @@ main
     flex-direction: row;
 }
 
-.blue
+.blueBox
 {
     background-color: var(--blue);
     height: 600px;

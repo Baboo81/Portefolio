@@ -171,3 +171,9 @@ button {
     background-color: var(--blue);
   }
 
+  p
+  {
+    font-size: 5em;
+    text-align: center;
+  }
+

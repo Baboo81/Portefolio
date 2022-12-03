@@ -35,6 +35,11 @@ main
 
 /*navBar*/
 
+nav
+{
+    margin-left: 96%;
+}
+
  ul
 {
     
@@ -45,7 +50,7 @@ main
     height: 100%;
     background-color: var(--vertLeger);
     position: fixed;
-    /*overflow: auto;*/
+    overflow: auto;
     
     
     
@@ -74,12 +79,14 @@ main
     display: block;
     width: 60px;
     color: var(--blanc);
+    margin-top: 200%;
     
 }
 
  li a:hover
 {
     color: var(--rose);
+    
 }
 
 
@@ -171,9 +178,10 @@ button {
     background-color: var(--blue);
   }
 
-  p
+  .header-title
   {
     font-size: 5em;
-    text-align: center;
+    margin-left:40%;
+    margin-top: 5%;
   }
 

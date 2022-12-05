@@ -97,14 +97,14 @@ nav
     flex-direction: row;
 }
 
-#white3
+#whiteBox3
 {
     background-color: var(--blanc);
     height: 800px;
     flex-direction: row;
 }
 
-#pink3
+#pinkBox3
 {
     background-color: var(--rose);
     height: 800px;

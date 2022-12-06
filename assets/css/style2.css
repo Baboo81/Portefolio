@@ -27,6 +27,16 @@ section
     display: flex;
 }
 
+.molenbeekImg
+{
+    height: 400px;
+    width: 600px;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    border : 1px solid black;
+}
+
 .hackathonImg
 {
     height: 400px;
@@ -193,3 +203,7 @@ button {
   }
 
  
+
+
+
+  

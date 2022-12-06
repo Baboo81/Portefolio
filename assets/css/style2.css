@@ -22,6 +22,16 @@ section
     display: flex;
 }
 
+.hackathonImg
+{
+    height: 400px;
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    
+}
+
 .header-title
 {
   font-size: 5em;
@@ -36,6 +46,11 @@ section
     height: 10vh;
     width: 10vw;
     
+}
+
+h3
+{
+    text-align: center;
 }
 
 /*navBar*/
@@ -110,7 +125,7 @@ nav
 {
     background-color: var(--blue);
     height: 800px;
-    flex-direction: row;
+    /*flex-direction: row;*/
 }
 
 #whiteBox3

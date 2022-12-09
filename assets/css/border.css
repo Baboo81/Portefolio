@@ -1,6 +1,6 @@
 /*Style btn 1*/
 
-/*html,
+html,
 body {
     margin: 0;
     padding: 0;
@@ -71,7 +71,7 @@ body {
     0% { background-position: 0 0; }
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
-}*/
+}
 
 /*Style btn 2*/
 

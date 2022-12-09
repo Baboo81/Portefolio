@@ -1,7 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Notable&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
 
 /*Colors*/
 :root
@@ -20,6 +19,10 @@ header
     background-color: var(--roseLeger);
     height: 350px;
     display: flex;
+    font-family: 'Notable', sans-serif;
+    font-size: 3em;
+    
+    
 }
 
 section
@@ -27,14 +30,29 @@ section
     display: flex;
 }
 
+#mainTitle
+{
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.logo
+{
+    margin-top: 3%;
+    margin-left: 5%;
+    height: 20vh;
+    width: 20vw;
+    
+}
+
 .molenbeekImg
 {
     height: 400px;
     width: 600px;
-    margin-top: 10%;
+    margin-top: 4%;
     margin-left: 20%;
     margin-right: 10%;
-    border : 1px solid black;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .hackathonImg
@@ -44,6 +62,7 @@ section
     margin-top: 10%;
     margin-left: 20%;
     margin-right: 10%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     
 }
 
@@ -54,18 +73,12 @@ section
   margin-top: 5%;
 }
 
-.logo
-{
-    margin-top: 5%;
-    margin-left: 10%;
-    height: 10vh;
-    width: 10vw;
-    
-}
+
 
 h3
 {
     text-align: center;
+    margin-top: 2%;
 }
 
 /*navBar*/
@@ -134,13 +147,15 @@ nav
     background-color: var(--blanc);
     height: 800px;
     flex-direction: row;
+    font-family: 'Old Standard TT', serif;
 }
 
 #blueBox
 {
     background-color: var(--blue);
     height: 800px;
-    /*flex-direction: row;*/
+    font-family: 'Old Standard TT', serif;
+    
 }
 
 #whiteBox3
@@ -157,23 +172,6 @@ nav
     flex-direction: row;
 }
 
-
-footer
-{
-    background-color: var(--vertLeger);
-    height: 100px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-items: center;
-}
-
-#copyRight
-{
-    margin-bottom: 2%;
-    margin-left: 85%;
-}
 /*Btn animation*/
 .bn632-hover {
     width: 160px;
@@ -215,8 +213,21 @@ footer
     );
     box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
   }
+/*btn-animation end*/
 
+  footer
+{
+    background-color: var(--vertLeger);
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
 
-
-
-
+#copyRight
+{
+    margin-bottom: 2%;
+    margin-left: 85%;
+}

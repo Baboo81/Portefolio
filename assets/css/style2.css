@@ -172,6 +172,12 @@ nav
     flex-direction: row;
 }
 
+#btn-cv
+{
+    
+}
+
+
 /*Btn animation*/
 .bn632-hover {
     width: 160px;

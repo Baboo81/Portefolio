@@ -137,7 +137,21 @@ nav
   margin-top: 5%;
 }
 
+#title-pinkBox1
+{
+    font-family: 'Notable', sans-serif;
+    color: var(--blanc);
+    text-align: center;
+    margin-top: 2%;
+}
 
+#p-pinkBox1
+{
+    font-family: 'Notable', sans-serif;
+    color: var(--rose);
+    margin-top: 10%;
+    margin-left: 2%;
+}
 
 #title-whiteBox1
 {
@@ -173,13 +187,23 @@ nav
 
 /*END*/
 
-/*Les txt*/
+/*Les p*/
 .txt-whiteBox1
 {
+    font-size: 1em;
     color: var(--rose);
     margin-left: 5%;
     margin-top: 5%;
 }
+
+.txt-pinkBox1
+{
+    font-size: 1em;
+    color: var(--blanc);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
 
 /*icones*/
 .incons-whiteBox1

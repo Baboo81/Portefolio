@@ -30,11 +30,7 @@ section
     display: flex;
 }
 
-#mainTitle
-{
-    margin-left: 6%;
-    margin-top: 2%;
-}
+
 
 .logo
 {
@@ -43,42 +39,6 @@ section
     height: 20vh;
     width: 20vw;
     
-}
-
-.molenbeekImg
-{
-    height: 400px;
-    width: 600px;
-    margin-top: 4%;
-    margin-left: 20%;
-    margin-right: 10%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-}
-
-.hackathonImg
-{
-    height: 400px;
-    width: 500px;
-    margin-top: 10%;
-    margin-left: 20%;
-    margin-right: 10%;
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    
-}
-
-.header-title
-{
-  font-size: 5em;
-  margin-left:40%;
-  margin-top: 5%;
-}
-
-
-
-h3
-{
-    text-align: center;
-    margin-top: 2%;
 }
 
 /*navBar*/
@@ -134,6 +94,71 @@ nav
 }
 /*End navbar*/
 
+/*Img*/
+.molenbeekImg
+{
+    height: 250px;
+    width: 350px;
+    margin-top: 4%;
+    margin-left: 45%;
+    margin-right: 10%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.hackathonImg
+{
+    height: 400px;
+    width: 500px;
+    margin-top: 10%;
+    margin-left: 20%;
+    margin-right: 10%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    
+}
+
+.img-thumbnail
+{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    transform: rotate(20deg);
+}
+/*END*/
+
+/*Titles*/
+#mainTitle
+{
+    margin-left: 6%;
+    margin-top: 2%;
+}
+
+.header-title
+{
+  font-size: 5em;
+  margin-left:40%;
+  margin-top: 5%;
+}
+
+
+
+#title-whiteBox1
+{
+    font-family: 'Notable', sans-serif;
+    color: var(--rose);
+    text-align: center;
+    margin-top: 2%;
+}
+
+#p-whiteBox1
+{
+    font-family: 'Notable', sans-serif;
+    color: var(--rose);
+    margin-top: 10%;
+    margin-left: 2%;
+}
+
+/*END*/
+
+
+/*Box*/
 #pinkBox1
 {
     background-color: var(--rose);
@@ -171,10 +196,23 @@ nav
     height: 800px;
     flex-direction: row;
 }
+/*END*/
 
+/*Btn*/
 #btn-cv
 {
     
+}
+
+#btn-pinkBox1
+{
+    margin-top: 70%;
+}
+
+#btn-whiteBox1
+{
+    margin-left: 30%;
+    margin-top: 30%;
 }
 
 

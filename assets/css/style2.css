@@ -1,6 +1,7 @@
 /*Fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&family=Notable&family=Special+Elite&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
 
 /*Colors*/
 :root
@@ -95,6 +96,11 @@ nav
 /*End navbar*/
 
 /*Img*/
+#chrisImg
+{
+    margin-left: 40%;
+    margin-top: 5%;
+}
 .molenbeekImg
 {
     height: 250px;
@@ -119,15 +125,25 @@ nav
 .img-thumbnail
 {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    transform: rotate(20deg);
+    transform: rotate(15deg);
+
 }
 /*END*/
 
-/*Titles et p*/
+/*Titles*/
 #mainTitle
 {
     margin-left: 6%;
     margin-top: 2%;
+}
+
+#name
+{
+    font-family: 'Poiret One', cursive;
+    font-size: 1em;
+    font-weight:bold;
+    margin-top: 10%;
+    margin-right: 20%;
 }
 
 .header-title
@@ -145,13 +161,13 @@ nav
     margin-top: 2%;
 }
 
-#p-pinkBox1
+#cv
 {
     font-family: 'Notable', sans-serif;
-    color: var(--rose);
-    margin-top: 10%;
-    margin-left: 2%;
+    color: var(--blanc);
+    margin-left: 5%;
 }
+
 
 #title-whiteBox1
 {
@@ -161,13 +177,6 @@ nav
     margin-top: 2%;
 }
 
-#p-whiteBox1
-{
-    font-family: 'Notable', sans-serif;
-    color: var(--rose);
-    margin-top: 10%;
-    margin-left: 2%;
-}
 
 #title-blueBox
 {
@@ -177,26 +186,31 @@ nav
     margin-top: 1%;
 }
 
-#p-blueBox
-{
-    font-family: 'Notable', sans-serif;
-    color: var(--rose);
-    margin-top: 10%;
-    margin-left: 2%;
-}
 
 /*END*/
 
 /*Les p*/
 .txt-whiteBox1
 {
+    font-family: 'Poiret One', cursive;
     font-size: 1em;
+    font-weight: bold;
     color: var(--rose);
     margin-left: 5%;
     margin-top: 5%;
 }
 
 .txt-pinkBox1
+{
+    font-family: 'Poiret One', cursive;
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--blanc);
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+.txt-blueBox
 {
     font-size: 1em;
     color: var(--blanc);
@@ -206,12 +220,12 @@ nav
 
 
 /*icones*/
-.incons-whiteBox1
+.icons-whiteBox1
 {
-    margin-top: 3%;
-    margin-left: 5%;
-    height: 5vh;
-    width: 5vw;
+    margin-top: 0%;
+    margin-left: 10%;
+    height: 25vh;
+    width: 25vw;
     color: var(--rose);
 }
 

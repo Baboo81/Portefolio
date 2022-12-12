@@ -99,13 +99,13 @@ nav
 #chrisImg
 {
     margin-left: 40%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 .molenbeekImg
 {
-    height: 250px;
-    width: 350px;
-    margin-top: 0%;
+    height: 300px;
+    width: 450px;
+    margin-top: 10%;
     margin-left: 50%;
     margin-right: 10%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -113,9 +113,9 @@ nav
 
 .pokemonImg
 {
-    height: 250px;
-    width: 350px;
-    margin-top: 0%;
+    height: 350px;
+    width: 450px;
+    margin-top: 5%;
     margin-left: 50%;
     margin-right: 10%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -124,9 +124,9 @@ nav
 
 .hackathonImg
 {
-    height: 250px;
-    width: 350px;
-    margin-top: 0%;
+    height: 350px;
+    width: 500px;
+    margin-top: 3%;
     margin-left: 15%;
     margin-right: 10%;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -135,7 +135,7 @@ nav
 
 #teams
 {
-    margin-top: -20%;
+    margin-top: -30%;
     margin-left: 55%;
 }
 
@@ -220,7 +220,7 @@ nav
 .txt-whiteBox1
 {
     font-family: 'Poiret One', cursive;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     color: var(--rose);
     margin-left: 5%;
@@ -237,7 +237,7 @@ nav
 .txt-whiteBox2
 {
     font-family: 'Poiret One', cursive;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     color: var(--rose);
     margin-left: 5%;
@@ -258,7 +258,7 @@ nav
 .txt-pinkBox1
 {
     font-family: 'Poiret One', cursive;
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: bold;
     color: var(--blanc);
     margin-left: 5%;
@@ -270,7 +270,7 @@ nav
 .txt-blueBox
 {
     font-family: 'Poiret One', cursive;
-    font-size: 1em;
+    font-size: 1.2em;
     color: var(--blanc);
     margin-left: 5%;
     margin-top: 5%;
@@ -297,7 +297,7 @@ nav
 #pinkBox1
 {
     background-color: var(--rose);
-    height: 800px;
+    height: 1000px;
     flex-direction: row;
     
 }
@@ -305,7 +305,7 @@ nav
 #whiteBox1
 {
     background-color: var(--blanc);
-    height: 800px;
+    height: 1000px;
     flex-direction: row;
    
 }
@@ -313,7 +313,7 @@ nav
 #blueBox
 {
     background-color: var(--blue);
-    height: 800px;
+    height: 1000px;
     
     
 }
@@ -321,14 +321,14 @@ nav
 #whiteBox3
 {
     background-color: var(--blanc);
-    height: 800px;
+    height: 1000px;
     flex-direction: row;
 }
 
 #pinkBox3
 {
     background-color: var(--rose);
-    height: 800px;
+    height: 1000px;
     flex-direction: row;
 }
 /*END*/
@@ -353,12 +353,13 @@ nav
 #btn-whiteBox2
 {
     margin-left: 20%;
-    margin-top: 0%;
+    margin-top: 3%;
 }
 
 #btn-blueBox
 {
     margin-left: 14%;
+    margin-top: 2%;
 }
 
 

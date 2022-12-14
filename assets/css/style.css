@@ -352,6 +352,14 @@ nav
     height: 1000px;
     flex-direction: row;
 }
+
+#pinkBoxContact
+{
+    background-color: var(--rose);
+    height: 800px;
+    
+    
+}
 /*END*/
 
 /*Btn*/

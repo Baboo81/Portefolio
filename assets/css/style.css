@@ -213,6 +213,16 @@ nav
     margin-top: 1%;
 }
 
+#title-pinkBoxContact
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Notable', sans-serif;
+    color: var(--blanc);
+    margin-top: -10%;
+
+}
+
 
 /*END*/
 
@@ -312,6 +322,22 @@ nav
 #php
 {
     margin-left: 10%;
+}
+
+#gitIcon
+{
+    transform: rotate(360deg);
+}
+
+#linkedInIcon
+{
+    transform: rotate(360deg);
+}
+
+.icons-pinkBoxContact
+{
+    margin-left: 30%;
+    margin-top: 10%;
 }
 
 /*Box*/

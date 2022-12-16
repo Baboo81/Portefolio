@@ -334,9 +334,16 @@ nav
     transform: rotate(360deg);
 }
 
+#mailIcon
+{
+    transform: rotate(360deg);
+}
+
 .icons-pinkBoxContact
 {
-    margin-left: 30%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 40%;
     margin-top: 10%;
 }
 

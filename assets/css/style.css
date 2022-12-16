@@ -84,7 +84,7 @@ nav
     display: block;
     width: 60px;
     color: var(--blanc);
-    margin-top: 200%;
+    margin-top: 190%;
     
 }
 
@@ -448,6 +448,7 @@ nav
 
 #copyRight
 {
+    margin-top: 2%;
     margin-bottom: 2%;
     margin-left: 85%;
 }

@@ -139,6 +139,26 @@ nav
     margin-left: 55%;
 }
 
+#imgLogo1
+{
+    height: 350px;
+    width: 450px;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 10%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+#imgLogo2
+{
+    height: 350px;
+    width: 450px;
+    margin-top: 5%;
+    margin-left: 50%;
+    margin-right: 10%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 .img-thumbnail
 {
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
@@ -223,6 +243,16 @@ nav
 
 }
 
+#title-whiteBoxLogo
+{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Notable', sans-serif;
+    color: var(--rose);
+    margin-top: 5%;
+
+}
+
 
 /*END*/
 
@@ -293,6 +323,14 @@ nav
     margin-left: 2%;
 }
 
+#p-whiteBoxLogo
+{
+    font-family: 'Notable', sans-serif;
+    color: var(--rose);
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
 /*icones*/
 .icons-whiteBox1
 {
@@ -343,6 +381,8 @@ nav
 {
     display: flex;
     flex-direction: row;
+    height: 80px;
+    width: 80px;
     margin-left: 40%;
     margin-top: 10%;
 }
@@ -372,14 +412,14 @@ nav
     
 }
 
-#whiteBox3
+#whiteBox2
 {
     background-color: var(--blanc);
     height: 1000px;
     flex-direction: row;
 }
 
-#pinkBox3
+#pinkBox2
 {
     background-color: var(--rose);
     height: 1000px;

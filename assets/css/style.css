@@ -377,7 +377,23 @@ nav
     transform: rotate(360deg);
 }
 
+#illustrator
+{
+    margin-bottom: 15%;
+    margin-left: 5%;
+}
+
 .icons-pinkBoxContact
+{
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+    width: 80px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+.icons-whiteBoxLogo
 {
     display: flex;
     flex-direction: row;

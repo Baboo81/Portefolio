@@ -140,6 +140,16 @@ nav
     margin-left: 55%;
 }
 
+.apiImg
+{
+    height: 350px;
+    width: 650px;
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-right: 10%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
 #imgLogo1
 {
     height: 350px;
@@ -314,6 +324,15 @@ nav
     margin-top: 5%;
 }
 
+.txt-pinkBox2
+{
+    font-family: 'Poiret One', cursive;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--blanc);
+    margin-left: 5%;
+    margin-top: 5%;
+}
 
 
 .txt-blueBox
@@ -330,6 +349,14 @@ nav
     font-family: 'Notable', sans-serif;
     color: var(--blanc);
     margin-left: 2%;
+}
+
+#p-pinkBox2
+{
+    font-family: 'Notable', sans-serif;
+    color: var(--blanc);
+    margin-top: 5%;
+    margin-left: 5%;
 }
 
 #p-whiteBoxLogo

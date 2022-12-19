@@ -12,6 +12,7 @@
     --vertLeger: #87f9d4;
     --vert: #00c081;
     --blanc: #ffffff;
+    --black: #000;
 }
 
 
@@ -83,7 +84,7 @@ nav
 {
     display: block;
     width: 60px;
-    color: var(--blanc);
+    color: var(--black);
     margin-top: 190%;
     
 }
@@ -233,6 +234,14 @@ nav
     margin-top: 1%;
 }
 
+#title-pinkBox2
+{
+    font-family: 'Notable', sans-serif;
+    color: var(--blanc);
+    text-align: center;
+    margin-top: 2%;
+}
+
 #title-pinkBoxContact
 {
     text-align: center;
@@ -360,6 +369,18 @@ nav
 #php
 {
     margin-left: 10%;
+}
+
+#unity
+{
+    margin-left: 10%;
+}
+
+#csharp
+{
+    margin-left: 10%;
+    height: 8vh;
+    width: 8vw;
 }
 
 #gitIcon

@@ -410,6 +410,11 @@ nav
     width: 8vw;
 }
 
+#nodeJs
+{
+    margin-left: 10%;
+}
+
 #gitIcon
 {
     transform: rotate(360deg);
@@ -528,6 +533,10 @@ nav
     margin-top: 2%;
 }
 
+#btn-pinkBox2
+{
+    margin-top: 10%;
+}
 
 /*Btn animation*/
 .bn632-hover {

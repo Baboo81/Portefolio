@@ -607,7 +607,50 @@ nav
 /*Extra small devices (phones:600px and down)*/
 @media only screen and (max-width: 600px) 
 {
+    header
+    {
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+
+    .logo
+    {
+        height: 40%;
+        width: 40%;
+    }
+
+    #main-Title
+    {
+        text-align: center;
+    }
+
+    #name
+    {
+        font-size: 1em;
+        margin-left: -12%;
+    }
+
+    nav
+    {
+        margin-left: 96%;
+    }
+
+    #pinkBox1 
+    {
+        height: 600px;
+        width: 100%;
+        font-size: 0.6em;
+    }
     
+    #title-pinkBox1
+    {
+        font-size: 1.2em;
+    }
+    .txt-pinkBox1
+    {
+        margin-left: 25%;
+    }
 }
 
 /*Small devices (tablets and large phones: 600px and up)*/
@@ -631,5 +674,5 @@ nav
 /*Extra large devices (large laptops/desktops: 1200px and up*/
 @media only screen and (min-width: 1200px)
 {
-    
+
 }

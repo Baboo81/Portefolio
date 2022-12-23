@@ -410,6 +410,17 @@ nav
     width: 5vw;
 }
 
+.icons-BoxLogo
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    height: 5vh;
+    width: 5vw;
+}
+
 #css
 {
     margin-left: 10%;
@@ -474,7 +485,7 @@ nav
     height: 80px;
     width: 80px;
     margin-left: 40%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .icons-whiteBoxLogo
@@ -529,7 +540,7 @@ nav
 #pinkBoxContact
 {
     background-color: var(--rose);
-    height: 800px;
+    height: 1000px;
     
     
 }

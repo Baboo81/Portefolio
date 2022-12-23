@@ -38,7 +38,7 @@ section
 .logo
 {
     margin-top: 3%;
-    margin-left: 5%;
+    margin-left: 3%;
     height: 20vh;
     width: 20vw;
     
@@ -287,13 +287,16 @@ nav
     color: var(--rose);
     margin-left: 5%;
     margin-top: 5%;
+    margin-bottom: 2%;
 }
 
 #p-whiteBox1
 {
     font-family: 'Notable', sans-serif;
     color: var(--rose);
-    margin-left: 2%;
+    margin-top: 3%;
+    margin-left: 4%;
+    margin-bottom: -4%;
 }
 
 .txt-whiteBox2
@@ -351,7 +354,7 @@ nav
 {
     font-family: 'Notable', sans-serif;
     color: var(--blanc);
-    margin-left: 2%;
+    margin-left: 5%;
 }
 
 #p-pinkBox2
@@ -375,8 +378,37 @@ nav
 {
     display: flex;
     flex-direction: row;
+    margin-left: 5%;
+    height: 5vh;
+    width: 5vw;
+}
+
+.icons-blueBox
+{
+    display: flex;
+    flex-direction: row;
     margin-top: 0%;
-    margin-left: 10%;
+    margin-left: 5%;
+    height: 5vh;
+    width: 5vw;
+}
+
+.icons-adobeWhite
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 5%;
+    height: 5vh;
+    width: 5vw;
+}
+
+.icons-adobePink
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1%;
+    margin-left: 5%;
     height: 5vh;
     width: 5vw;
 }
@@ -409,8 +441,7 @@ nav
 #csharp
 {
     margin-left: 10%;
-    height: 8vh;
-    width: 8vw;
+    
 }
 
 #nodeJs
@@ -435,8 +466,8 @@ nav
 
 #illustrator
 {
-    margin-bottom: 15%;
-    margin-left: 5%;
+    height: 4.5vh;
+    width: 4.5vh;
 }
 
 .icons-pinkBoxContact

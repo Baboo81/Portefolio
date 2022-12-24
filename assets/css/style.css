@@ -692,6 +692,11 @@ nav
     {
         margin-left: 25%;
     }
+
+    #whiteBox1 
+    {
+        display: none;
+    }
 }
 
 /*Small devices (tablets and large phones: 600px and up)*/

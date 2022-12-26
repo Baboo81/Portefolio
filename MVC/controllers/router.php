@@ -1,9 +1,9 @@
 <?php 
     $tabRoles = [
         // anonyme
-        0 => ["accueil", "apropos", "contact", "connexion"],
+        0 => ["accueil", "jeux", "contact", "logosPictos"],
         // connecté
-        1 => ["accueil", "apropos", "contact", "vip", "deconnexion"]
+       // 1 => ["accueil", "apropos", "contact", "vip", "deconnexion"]
     ];
     if(isset($_GET["section"])){
         // vérifier si existe dans le tableau

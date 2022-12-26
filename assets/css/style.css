@@ -648,6 +648,10 @@ nav
 /*Extra small devices (phones:600px and down)*/
 @media only screen and (max-width: 600px) 
 {
+    body
+    {
+        box-sizing: border-box;
+    }
     header
     {
         width: 100%;
@@ -655,10 +659,21 @@ nav
         font-size: 1em;
     }
 
+    section 
+    {
+       display: grid;
+       grid-template-columns: auto;
+    }
+
     .logo
     {
         height: 40%;
         width: 40%;
+    }
+
+    #cv
+    {
+        margin-top: 5%;
     }
 
     #main-Title
@@ -679,23 +694,40 @@ nav
 
     #pinkBox1 
     {
+    
         height: 600px;
         width: 100%;
         font-size: 0.6em;
+       
+
+    }
+
+    #chrisImg
+    {
+        margin-left: 15%;
+        margin-top: 2%;
+        height: 140px;
+        width: 180px;;
     }
     
     #title-pinkBox1
     {
         font-size: 1.2em;
+        margin-right: 25%;
     }
     .txt-pinkBox1
     {
-        margin-left: 25%;
+        margin-left: 12%;
     }
 
     #whiteBox1 
     {
-        display: none;
+        background-color: var(--blanc);
+        
+        height: 1000px;
+        width: 100%;
+        
+   
     }
 }
 

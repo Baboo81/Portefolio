@@ -674,6 +674,7 @@ nav
     #cv
     {
         margin-top: 5%;
+        margin-left: 12%;
     }
 
     #main-Title
@@ -698,13 +699,11 @@ nav
         height: 600px;
         width: 100%;
         font-size: 0.6em;
-       
-
     }
 
     #chrisImg
     {
-        margin-left: 15%;
+        margin-left: 25%;
         margin-top: 2%;
         height: 140px;
         width: 180px;;
@@ -713,22 +712,41 @@ nav
     #title-pinkBox1
     {
         font-size: 1.2em;
-        margin-right: 25%;
+        margin-right: 10%;
     }
     .txt-pinkBox1
     {
-        margin-left: 12%;
+        margin-left: 20%;
     }
 
     #whiteBox1 
     {
         background-color: var(--blanc);
-        
         height: 1000px;
         width: 100%;
-        
-   
     }
+
+    #title-whiteBox1
+    {
+        text-align: justify;
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .txt-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .molenbeekImg
+    {
+        margin-left: 10%;
+        height: 140px;
+        width: 180px;
+    }
+
+
 }
 
 /*Small devices (tablets and large phones: 600px and up)*/

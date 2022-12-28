@@ -204,7 +204,7 @@ nav
 {
     font-family: 'Notable', sans-serif;
     color: var(--blanc);
-    text-align: center;
+    margin-left: 5%;
     margin-top: 2%;
 }
 
@@ -222,7 +222,7 @@ nav
 {
     font-family: 'Notable', sans-serif;
     color: var(--rose);
-    text-align: center;
+    margin-left: 5%;
     margin-top: 2%;
 }
 
@@ -230,7 +230,7 @@ nav
 {
     font-family: 'Notable', sans-serif;
     color: var(--rose);
-    text-align: center;
+    margin-left: 5%;
     margin-top: 2%;
 }
 
@@ -247,7 +247,7 @@ nav
 {
     font-family: 'Notable', sans-serif;
     color: var(--blanc);
-    text-align: center;
+    margin-left: 5%;
     margin-top: 2%;
 }
 

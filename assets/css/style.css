@@ -645,7 +645,7 @@ nav
 /*Médias queries*/
 
 /*Extra small devices (phones:600px and down)*/
-@media only screen and (max-width: 600px) 
+@media only screen and (max-width: 481px) 
 {
     body
     {
@@ -1002,25 +1002,1429 @@ nav
 }
 
 /*Small devices (tablets and large phones: 600px and up)*/
-@media only screen and (min-width: 600px)
+/*@media only screen and (min-width: 641px)
 {
+    body
+    {
+        box-sizing: border-box;
+    }
+    header
+    {
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+
+    section 
+    {
+       display: grid;
+       grid-template-columns: auto;
+    }
+
+    .logo
+    {
+        height: 40%;
+        width: 40%;
+    }
+
+    #cv
+    {
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    /*pinkBox1*/
+
+   /* #btn-cv
+    {
+        margin-left: 20%;
+    }
+
+    #main-Title
+    {
+        text-align: center;
+    }
+
+    #name
+    {
+        font-size: 1em;
+        margin-left: -12%;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    #pinkBox1 
+    {
+    
+        height: 600px;
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    #chrisImg
+    {
+        margin-left: 35%;
+        margin-top: 2%;
+        height: 140px;
+        width: 180px;;
+    }
+    
+    #title-pinkBox1
+    {
+        font-size: 1.2em;
+        margin-right: 10%;
+    }
+    .txt-pinkBox1
+    {
+        margin-left: 25%;
+    }
+    /*END queries pinkBox1*/
+
+    /*whiteBox1*/
+   /* #whiteBox1 
+    {
+        background-color: var(--blanc);
+        height: 530px;
+        width: 100%;
+    }
+
+    #title-whiteBox1
+    {
+        text-align: justify;
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .txt-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    #p-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .molenbeekImg
+    {
+        margin-left: 70%;
+        height: 140px;
+        width: 180px;
+    }
+
+    #btn-whiteBox1
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 7%;
+    }
+
+    .icons-adobePink
+    {
+        margin-left: 7%;
+    }
+    /*END queries whiteBox1*/
+
+    /*blueBox*/
+    /*#blueBox
+    {
+        width: 100%;
+        height: 600px;
+    }
+    #title-blueBox
+    {
+        font-size: .8em;
+        margin-left: -20%;
+    }
+
+    .txt-blueBox
+    {
+        font-size: .7em;
+        margin-left: 6%;
+    }
+
+    .hackathonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 40%;
+        margin-top: -117%;
+    }
+
+    #teams
+    {
+        height: 140px;
+        width: 180px;
+        margin-top: 17%;
+        margin-left: 25%;
+    }
+
+    #btn-blueBox
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 33%;
+        margin-top: -38%;
+    }
+
+    #p-blueBox
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 20%;
+    }
+
+    .icons-blueBox
+    {
+        margin-left: 6%;
+        margin-top: -3%;
+    }
+
+    .icons-adobeWhite
+    {
+        margin-left: 6%;
+    }
+    /*END queries blueBox*/
+
+    /*whiteBox2*/
+   /* #whiteBox2
+    {
+        width: 100%;
+        height: 470px;
+    }
+    #title-whiteBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-whiteBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;
+        
+        
+    }
+
+    .pokemonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+
+    #btn-whiteBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+        margin-top: 0%;
+    }
+
+    #p-whiteBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries whiteBox2*/
+
+    /*pinkBox2*/
+   /* #pinkBox2
+    {
+        width: 100%;
+        height: 430px;
+    }
+    #title-pinkBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-pinkBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;    
+    }
+
+    .apiImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 37%;
+        margin-top: 0%;
+    }
+
+    #btn-pinkBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left:30%;
+        margin-top: 0%;
+    }
+
+    #p-pinkBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries pinkBox2*/
+
+    /*Btn animation*/
+   /* .bn632-hover 
+    {
+        width: 70px;
+        font-size: 10px;
+        font-weight: 600;
+        padding-top: 0.6%;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 20px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .bn632-hover:hover 
+    {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .bn632-hover:focus 
+    {
+        outline: none;
+    }
+    
+    .bn632-hover.bn27 
+    {
+        background-image: linear-gradient(
+        to right,
+        #ed6ea0,
+        #ec8c69,
+        #f7186a,
+        #fbb03b
+        );
+        box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    }
+    /*END btn animation*/
+
+  /* footer 
+   {
+        height: 50px;
+   }
+
+   #copyRight
+   {
+    font-size: .6em;
+    margin-left: 65%;
+    margin-top: 5%;
+   }
 
 }
 
 /*Medium devices (lanscape tablets: 768px and up)*/
-@media only screen and (min-width: 768px)
+/*@media only screen and (min-width: 961px)
 {
+    body
+    {
+        box-sizing: border-box;
+    }
+    header
+    {
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+
+    section 
+    {
+       display: grid;
+       grid-template-columns: auto;
+    }
+
+    .logo
+    {
+        height: 40%;
+        width: 40%;
+    }
+
+    #cv
+    {
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    /*pinkBox1*/
+
+    /*#btn-cv
+    {
+        margin-left: 20%;
+    }
+
+    #main-Title
+    {
+        text-align: center;
+    }
+
+    #name
+    {
+        font-size: 1em;
+        margin-left: -12%;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    #pinkBox1 
+    {
+    
+        height: 600px;
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    #chrisImg
+    {
+        margin-left: 35%;
+        margin-top: 2%;
+        height: 140px;
+        width: 180px;;
+    }
+    
+    #title-pinkBox1
+    {
+        font-size: 1.2em;
+        margin-right: 10%;
+    }
+    .txt-pinkBox1
+    {
+        margin-left: 25%;
+    }
+    /*END queries pinkBox1*/
+
+    /*whiteBox1*/
+   /* #whiteBox1 
+    {
+        background-color: var(--blanc);
+        height: 530px;
+        width: 100%;
+    }
+
+    #title-whiteBox1
+    {
+        text-align: justify;
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .txt-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    #p-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .molenbeekImg
+    {
+        margin-left: 70%;
+        height: 140px;
+        width: 180px;
+    }
+
+    #btn-whiteBox1
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 7%;
+    }
+
+    .icons-adobePink
+    {
+        margin-left: 7%;
+    }
+    /*END queries whiteBox1*/
+
+    /*blueBox*/
+   /* #blueBox
+    {
+        width: 100%;
+        height: 600px;
+    }
+    #title-blueBox
+    {
+        font-size: .8em;
+        margin-left: -20%;
+    }
+
+    .txt-blueBox
+    {
+        font-size: .7em;
+        margin-left: 6%;
+    }
+
+    .hackathonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 40%;
+        margin-top: -117%;
+    }
+
+    #teams
+    {
+        height: 140px;
+        width: 180px;
+        margin-top: 17%;
+        margin-left: 25%;
+    }
+
+    #btn-blueBox
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 33%;
+        margin-top: -38%;
+    }
+
+    #p-blueBox
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 20%;
+    }
+
+    .icons-blueBox
+    {
+        margin-left: 6%;
+        margin-top: -3%;
+    }
+
+    .icons-adobeWhite
+    {
+        margin-left: 6%;
+    }
+    /*END queries blueBox*/
+
+    /*whiteBox2*/
+   /*#whiteBox2
+    {
+        width: 100%;
+        height: 470px;
+    }
+    #title-whiteBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-whiteBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;
+        
+        
+    }
+
+    .pokemonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+
+    #btn-whiteBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+        margin-top: 0%;
+    }
+
+    #p-whiteBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries whiteBox2*/
+
+    /*pinkBox2*/
+   /* #pinkBox2
+    {
+        width: 100%;
+        height: 430px;
+    }
+    #title-pinkBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-pinkBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;    
+    }
+
+    .apiImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 37%;
+        margin-top: 0%;
+    }
+
+    #btn-pinkBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left:30%;
+        margin-top: 0%;
+    }
+
+    #p-pinkBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries pinkBox2*/
+
+    /*Btn animation*/
+   /* .bn632-hover 
+    {
+        width: 70px;
+        font-size: 10px;
+        font-weight: 600;
+        padding-top: 0.6%;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 20px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .bn632-hover:hover 
+    {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .bn632-hover:focus 
+    {
+        outline: none;
+    }
+    
+    .bn632-hover.bn27 
+    {
+        background-image: linear-gradient(
+        to right,
+        #ed6ea0,
+        #ec8c69,
+        #f7186a,
+        #fbb03b
+        );
+        box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    }
+    /*END btn animation*/
+
+   /*footer 
+   {
+        height: 50px;
+   }
+
+   #copyRight
+   {
+    font-size: .6em;
+    margin-left: 65%;
+    margin-top: 5%;
+   }
 
 }
 
 /*Large devices (laptops/desktops: 992px and up)*/
-@media only screen and (min-width: 992px)
+/*@media only screen and (min-width: 1025px)
 {
+    body
+    {
+        box-sizing: border-box;
+    }
+    header
+    {
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+
+    section 
+    {
+       display: grid;
+       grid-template-columns: auto;
+    }
+
+    .logo
+    {
+        height: 40%;
+        width: 40%;
+    }
+
+    #cv
+    {
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    /*pinkBox1*/
+
+   /* #btn-cv
+    {
+        margin-left: 20%;
+    }
+
+    #main-Title
+    {
+        text-align: center;
+    }
+
+    #name
+    {
+        font-size: 1em;
+        margin-left: -12%;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    #pinkBox1 
+    {
+    
+        height: 600px;
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    #chrisImg
+    {
+        margin-left: 35%;
+        margin-top: 2%;
+        height: 140px;
+        width: 180px;;
+    }
+    
+    #title-pinkBox1
+    {
+        font-size: 1.2em;
+        margin-right: 10%;
+    }
+    .txt-pinkBox1
+    {
+        margin-left: 25%;
+    }
+    /*END queries pinkBox1*/
+
+    /*whiteBox1*/
+    /*#whiteBox1 
+    {
+        background-color: var(--blanc);
+        height: 530px;
+        width: 100%;
+    }
+
+    #title-whiteBox1
+    {
+        text-align: justify;
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .txt-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    #p-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .molenbeekImg
+    {
+        margin-left: 70%;
+        height: 140px;
+        width: 180px;
+    }
+
+    #btn-whiteBox1
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 7%;
+    }
+
+    .icons-adobePink
+    {
+        margin-left: 7%;
+    }
+    /*END queries whiteBox1*/
+
+    /*blueBox*/
+    /*#blueBox
+    {
+        width: 100%;
+        height: 600px;
+    }
+    #title-blueBox
+    {
+        font-size: .8em;
+        margin-left: -20%;
+    }
+
+    .txt-blueBox
+    {
+        font-size: .7em;
+        margin-left: 6%;
+    }
+
+    .hackathonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 40%;
+        margin-top: -117%;
+    }
+
+    #teams
+    {
+        height: 140px;
+        width: 180px;
+        margin-top: 17%;
+        margin-left: 25%;
+    }
+
+    #btn-blueBox
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 33%;
+        margin-top: -38%;
+    }
+
+    #p-blueBox
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 20%;
+    }
+
+    .icons-blueBox
+    {
+        margin-left: 6%;
+        margin-top: -3%;
+    }
+
+    .icons-adobeWhite
+    {
+        margin-left: 6%;
+    }
+    /*END queries blueBox*/
+
+    /*whiteBox2*/
+   /* #whiteBox2
+    {
+        width: 100%;
+        height: 470px;
+    }
+    #title-whiteBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-whiteBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;
+        
+        
+    }
+
+    .pokemonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+
+    #btn-whiteBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+        margin-top: 0%;
+    }
+
+    #p-whiteBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries whiteBox2*/
+
+    /*pinkBox2*/
+   /* #pinkBox2
+    {
+        width: 100%;
+        height: 430px;
+    }
+    #title-pinkBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-pinkBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;    
+    }
+
+    .apiImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 37%;
+        margin-top: 0%;
+    }
+
+    #btn-pinkBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left:30%;
+        margin-top: 0%;
+    }
+
+    #p-pinkBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries pinkBox2*/
+
+    /*Btn animation*/
+   /* .bn632-hover 
+    {
+        width: 70px;
+        font-size: 10px;
+        font-weight: 600;
+        padding-top: 0.6%;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 20px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .bn632-hover:hover 
+    {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .bn632-hover:focus 
+    {
+        outline: none;
+    }
+    
+    .bn632-hover.bn27 
+    {
+        background-image: linear-gradient(
+        to right,
+        #ed6ea0,
+        #ec8c69,
+        #f7186a,
+        #fbb03b
+        );
+        box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    }
+    /*END btn animation*/
+
+   /*footer 
+   {
+        height: 50px;
+   }
+
+   #copyRight
+   {
+    font-size: .6em;
+    margin-left: 65%;
+    margin-top: 5%;
+   }
 
 }
 
 /*Extra large devices (large laptops/desktops: 1200px and up*/
-@media only screen and (min-width: 1200px)
+/*@media only screen and (min-width: 1281px)
 {
+    body
+    {
+        box-sizing: border-box;
+    }
+    header
+    {
+        width: 100%;
+        height: auto;
+        font-size: 1em;
+    }
+
+    section 
+    {
+       display: grid;
+       grid-template-columns: auto;
+    }
+
+    .logo
+    {
+        height: 40%;
+        width: 40%;
+    }
+
+    #cv
+    {
+        margin-top: 5%;
+        margin-left: 12%;
+    }
+
+    /*pinkBox1*/
+
+   /* #btn-cv
+    {
+        margin-left: 20%;
+    }
+
+    #main-Title
+    {
+        text-align: center;
+    }
+
+    #name
+    {
+        font-size: 1em;
+        margin-left: -12%;
+    }
+
+    nav
+    {
+        display: none;
+    }
+
+    #pinkBox1 
+    {
+    
+        height: 600px;
+        width: 100%;
+        font-size: 0.6em;
+    }
+
+    #chrisImg
+    {
+        margin-left: 35%;
+        margin-top: 2%;
+        height: 140px;
+        width: 180px;;
+    }
+    
+    #title-pinkBox1
+    {
+        font-size: 1.2em;
+        margin-right: 10%;
+    }
+    .txt-pinkBox1
+    {
+        margin-left: 25%;
+    }
+    /*END queries pinkBox1*/
+
+    /*whiteBox1*/
+    /*#whiteBox1 
+    {
+        background-color: var(--blanc);
+        height: 530px;
+        width: 100%;
+    }
+
+    #title-whiteBox1
+    {
+        text-align: justify;
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .txt-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    #p-whiteBox1
+    {
+        font-size: .7em;
+        margin-left: 7%;
+    }
+
+    .molenbeekImg
+    {
+        margin-left: 70%;
+        height: 140px;
+        width: 180px;
+    }
+
+    #btn-whiteBox1
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 7%;
+    }
+
+    .icons-adobePink
+    {
+        margin-left: 7%;
+    }
+    /*END queries whiteBox1*/
+
+    /*blueBox*/
+    /*#blueBox
+    {
+        width: 100%;
+        height: 600px;
+    }
+    #title-blueBox
+    {
+        font-size: .8em;
+        margin-left: -20%;
+    }
+
+    .txt-blueBox
+    {
+        font-size: .7em;
+        margin-left: 6%;
+    }
+
+    .hackathonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 40%;
+        margin-top: -117%;
+    }
+
+    #teams
+    {
+        height: 140px;
+        width: 180px;
+        margin-top: 17%;
+        margin-left: 25%;
+    }
+
+    #btn-blueBox
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 33%;
+        margin-top: -38%;
+    }
+
+    #p-blueBox
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 20%;
+    }
+
+    .icons-blueBox
+    {
+        margin-left: 6%;
+        margin-top: -3%;
+    }
+
+    .icons-adobeWhite
+    {
+        margin-left: 6%;
+    }
+    /*END queries blueBox*/
+
+    /*whiteBox2*/
+   /* #whiteBox2
+    {
+        width: 100%;
+        height: 470px;
+    }
+    #title-whiteBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-whiteBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;
+        
+        
+    }
+
+    .pokemonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+
+    #btn-whiteBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+        margin-top: 0%;
+    }
+
+    #p-whiteBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries whiteBox2*/
+
+    /*pinkBox2*/
+   /* #pinkBox2
+    {
+        width: 100%;
+        height: 430px;
+    }
+    #title-pinkBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-pinkBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;    
+    }
+
+    .apiImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 37%;
+        margin-top: 0%;
+    }
+
+    #btn-pinkBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left:30%;
+        margin-top: 0%;
+    }
+
+    #p-pinkBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries pinkBox2*/
+
+    /*Btn animation*/
+    /*.bn632-hover 
+    {
+        width: 70px;
+        font-size: 10px;
+        font-weight: 600;
+        padding-top: 0.6%;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 20px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .bn632-hover:hover 
+    {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .bn632-hover:focus 
+    {
+        outline: none;
+    }
+    
+    .bn632-hover.bn27 
+    {
+        background-image: linear-gradient(
+        to right,
+        #ed6ea0,
+        #ec8c69,
+        #f7186a,
+        #fbb03b
+        );
+        box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+    }
+    /*END btn animation*/
+
+  /* footer 
+   {
+        height: 50px;
+   }
+
+   #copyRight
+   {
+    font-size: .6em;
+    margin-left: 65%;
+    margin-top: 5%;
+   }
 
 }

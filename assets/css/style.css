@@ -830,13 +830,114 @@ nav
     .icons-blueBox
     {
         margin-left: 6%;
+        margin-top: -3%;
     }
 
     .icons-adobeWhite
     {
         margin-left: 6%;
     }
+    /*END queries blueBox*/
 
+    /*whiteBox2*/
+    #whiteBox2
+    {
+        width: 100%;
+        height: 470px;
+    }
+    #title-whiteBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-whiteBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;
+        
+        
+    }
+
+    .pokemonImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 70%;
+        margin-top: 0%;
+    }
+
+    #btn-whiteBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 28%;
+        margin-top: 0%;
+    }
+
+    #p-whiteBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries whiteBox2*/
+
+    /*pinkBox2*/
+    #pinkBox2
+    {
+        width: 100%;
+        height: 430px;
+    }
+    #title-pinkBox2
+    {
+        font-size: .8em;
+        margin-left: 0%;
+    }
+
+    .txt-pinkBox2 
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 0%;    
+    }
+
+    .apiImg
+    {
+        height: 140px;
+        width: 180px;
+        margin-left: 37%;
+        margin-top: 0%;
+    }
+
+    #btn-pinkBox2
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left:30%;
+        margin-top: 0%;
+    }
+
+    #p-pinkBox2
+    {
+        font-size: .7em;
+        margin-left: 6%;
+        margin-top: 5%;
+    }
+
+    .icons-whiteBox1
+    {
+        margin-left: 6%;
+        margin-top: -2%;
+    }
+    /*END queries pinkBox2*/
 
     /*Btn animation*/
     .bn632-hover 
@@ -884,9 +985,19 @@ nav
         );
         box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
     }
-    /*END*/
+    /*END btn animation*/
 
-   
+   footer 
+   {
+        height: 50px;
+   }
+
+   #copyRight
+   {
+    font-size: .6em;
+    margin-left: 65%;
+    margin-top: 5%;
+   }
 
 }
 

@@ -645,7 +645,7 @@ nav
 /*Médias queries*/
 
 /*Extra small devices (phones:600px and down)*/
-@media only screen and (max-width: 481px) 
+@media only screen and (max-width: 481px) and (max-width: 641px) 
 {
     body
     {
@@ -1002,7 +1002,7 @@ nav
 }
 
 /*Small devices (tablets and large phones: 600px and up)*/
-/*@media only screen and (min-width: 641px)
+@media only screen and (min-width: 641px) and (max-width: 961px)
 {
     body
     {
@@ -1035,7 +1035,7 @@ nav
 
     /*pinkBox1*/
 
-   /* #btn-cv
+    #btn-cv
     {
         margin-left: 20%;
     }
@@ -1084,7 +1084,7 @@ nav
     /*END queries pinkBox1*/
 
     /*whiteBox1*/
-   /* #whiteBox1 
+    #whiteBox1 
     {
         background-color: var(--blanc);
         height: 530px;
@@ -1136,7 +1136,7 @@ nav
     /*END queries whiteBox1*/
 
     /*blueBox*/
-    /*#blueBox
+    #blueBox
     {
         width: 100%;
         height: 600px;
@@ -1197,7 +1197,7 @@ nav
     /*END queries blueBox*/
 
     /*whiteBox2*/
-   /* #whiteBox2
+    #whiteBox2
     {
         width: 100%;
         height: 470px;
@@ -1248,7 +1248,7 @@ nav
     /*END queries whiteBox2*/
 
     /*pinkBox2*/
-   /* #pinkBox2
+    #pinkBox2
     {
         width: 100%;
         height: 430px;
@@ -1297,7 +1297,7 @@ nav
     /*END queries pinkBox2*/
 
     /*Btn animation*/
-   /* .bn632-hover 
+    .bn632-hover 
     {
         width: 70px;
         font-size: 10px;
@@ -1344,7 +1344,7 @@ nav
     }
     /*END btn animation*/
 
-  /* footer 
+   footer 
    {
         height: 50px;
    }
@@ -1359,7 +1359,7 @@ nav
 }
 
 /*Medium devices (lanscape tablets: 768px and up)*/
-/*@media only screen and (min-width: 961px)
+/*@media only screen and (min-width: 961px) and (max-width:1021px)
 {
     body
     {
@@ -1716,7 +1716,7 @@ nav
 }
 
 /*Large devices (laptops/desktops: 992px and up)*/
-/*@media only screen and (min-width: 1025px)
+/*@media only screen and (min-width: 1025px) and (max-width: 1281px)
 {
     body
     {

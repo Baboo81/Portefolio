@@ -2265,6 +2265,626 @@ nav
 /*Extra large devices (large laptops/desktops: 1200px and up*/
 @media only screen and (min-width: 1281px)
 {
+    header
+    {
+        background-color: var(--roseLeger);
+        height: 350px;
+        display: flex;
+        font-family: 'Notable', sans-serif;
+        font-size: 3em;
+    }
     
+    section
+    {
+        display: flex;
+    }
+    
+    
+    
+    .logo
+    {
+        margin-top: 3%;
+        margin-left: 3%;
+        height: 20vh;
+        width: 20vw;
+        
+    }
+    
+    /*navBar*/
+    nav
+    {
+        margin-left: 96%;
+    }
+    
+     ul
+    {
+        list-style-type: none;
+        width: 4vw;
+        height: 100%;
+        background-color: var(--vertLeger);
+        position: fixed;
+        overflow: auto;
+    }
+    
+     li
+    {
+        
+        list-style: none;
+        float: right;
+    }
+    
+     a
+    {
+        
+        text-decoration: none;
+        display: block;
+        padding: 40px;
+        transform: rotate(91deg);
+    }
+    
+    
+     li a
+    {
+        display: block;
+        width: 60px;
+        color: var(--black);
+        margin-top: 190%;
+        
+    }
+    
+     li a:hover
+    {
+        color: var(--rose);
+        
+    }
+    /*End navbar*/
+    
+    #root
+    {
+        display: none;
+    }
+    
+    /*Img*/
+    #chrisImg
+    {
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+    .molenbeekImg
+    {
+        height: 300px;
+        width: 450px;
+        margin-top: 10%;
+        margin-left: 50%;
+        margin-right: 10%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    .pokemonImg
+    {
+        height: 350px;
+        width: 450px;
+        margin-top: 5%;
+        margin-left: 50%;
+        margin-right: 10%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    
+    .hackathonImg
+    {
+        height: 350px;
+        width: 500px;
+        margin-top: 3%;
+        margin-left: 15%;
+        margin-right: 10%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;    
+    }
+    
+    #teams
+    {
+        margin-top: -30%;
+        margin-left: 55%;
+    }
+    
+    .apiImg
+    {
+        height: 350px;
+        width: 650px;
+        margin-top: 3%;
+        margin-left: 5%;
+        margin-right: 10%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    #imgLogo1
+    {
+        height: 350px;
+        width: 450px;
+        margin-top: 5%;
+        margin-left: 50%;
+        margin-right: 10%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    #imgLogo2
+    {
+        height: 350px;
+        width: 450px;
+        margin-top: 5%;
+        margin-left: 50%;
+        margin-right: 10%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    }
+    
+    .img-thumbnail
+    {
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        transform: rotate(15deg);
+    
+    }
+    /*END*/
+    
+    /*Titles*/
+    #mainTitle
+    {
+        text-align: center;
+        margin-left: 20%;
+        margin-top: 3%;
+    }
+    
+    #name
+    {
+        font-family: 'Poiret One', cursive;
+        font-size: 1em;
+        font-weight:bold;
+        text-align:start;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    
+    .header-title
+    {
+      font-size: 5em;
+      margin-left:40%;
+      margin-top: 5%;
+    }
+    
+    #title-pinkBox1
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--blanc);
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    
+    #cv
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--blanc);
+        font-size: 1em;
+        margin-left: 4%;
+    }
+    
+    
+    #title-whiteBox1
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--rose);
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    
+    #title-whiteBox2
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--rose);
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    
+    
+    #title-blueBox
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--blanc);
+        text-align: center;
+        margin-top: 1%;
+    }
+    
+    #title-pinkBox2
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--blanc);
+        margin-left: 5%;
+        margin-top: 2%;
+    }
+    
+    #title-pinkBoxContact
+    {
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Notable', sans-serif;
+        color: var(--blanc);
+        margin-top: -10%;
+    }
+    
+    #title-whiteBoxLogo
+    {
+        text-align: center;
+        font-size: 2em;
+        font-family: 'Notable', sans-serif;
+        color: var(--rose);
+        margin-top: 5%;
+    }
+    /*END*/
+    
+    /*Les p*/
+    .txt-whiteBox1
+    {
+        font-family: 'Poiret One', cursive;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: var(--rose);
+        margin-left: 5%;
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    
+    #p-whiteBox1
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--rose);
+        margin-top: 3%;
+        margin-left: 4%;
+        margin-bottom: -4%;
+    }
+    
+    .txt-whiteBox2
+    {
+        font-family: 'Poiret One', cursive;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: var(--rose);
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    #p-whiteBox2
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--rose);
+        margin-top: 5%;
+        margin-left: 5%;
+        
+        
+    }
+    
+    
+    .txt-pinkBox1
+    {
+        font-family: 'Poiret One', cursive;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: var(--blanc);
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    .txt-pinkBox2
+    {
+        font-family: 'Poiret One', cursive;
+        font-size: 1.2em;
+        font-weight: bold;
+        color: var(--blanc);
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+    
+    
+    .txt-blueBox
+    {
+        font-family: 'Poiret One', cursive;
+        font-size: 1.2em;
+        color: var(--blanc);
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+    
+    #p-blueBox
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--blanc);
+        margin-left: 5%;
+    }
+    
+    #p-pinkBox2
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--blanc);
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    #p-whiteBoxLogo
+    {
+        font-family: 'Notable', sans-serif;
+        color: var(--rose);
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    
+    /*icones*/
+    .icons-whiteBox1
+    {
+        display: flex;
+        flex-direction: row;
+        margin-left: 5%;
+        height: 5vh;
+        width: 5vw;
+    }
+    
+    .icons-blueBox
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 0%;
+        margin-left: 5%;
+        height: 5vh;
+        width: 5vw;
+    }
+    
+    .icons-adobeWhite
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1%;
+        margin-left: 5%;
+        height: 5vh;
+        width: 5vw;
+    }
+    
+    .icons-adobePink
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1%;
+        margin-left: 5%;
+        height: 5vh;
+        width: 5vw;
+    }
+    
+    .icons-BoxLogo
+    {
+        display: flex;
+        flex-direction: row;
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        height: 5vh;
+        width: 5vw;
+    }
+    
+    #css
+    {
+        margin-left: 10%;
+    }
+    
+    #sass
+    {
+        margin-left: 10%;
+    }
+    
+    #js
+    {
+        margin-left: 10%;
+    }
+    
+    #php
+    {
+        margin-left: 10%;
+    }
+    
+    #unity
+    {
+        margin-left: 10%;
+    }
+    
+    #csharp
+    {
+        margin-left: 10%;
+        
+    }
+    
+    #nodeJs
+    {
+        margin-left: 10%;
+    }
+    
+    #gitIcon
+    {
+        transform: rotate(360deg);
+    }
+    
+    #linkedInIcon
+    {
+        transform: rotate(360deg);
+    }
+    
+    #mailIcon
+    {
+        transform: rotate(360deg);
+    }
+    
+    #illustrator
+    {
+        height: 4.5vh;
+        width: 4.5vh;
+    }
+    
+    .icons-pinkBoxContact
+    {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        width: 80px;
+        margin-left: 40%;
+        margin-top: 5%;
+    }
+    
+    .icons-whiteBoxLogo
+    {
+        display: flex;
+        flex-direction: row;
+        height: 80px;
+        width: 80px;
+        margin-left: 40%;
+        margin-top: 10%;
+    }
+    
+    /*Box*/
+    #pinkBox1
+    {
+        background-color: var(--rose);
+        height: 1000px;
+        flex-direction: row;
+        
+    }
+    
+    #whiteBox1
+    {
+        background-color: var(--blanc);
+        height: 1000px;
+        flex-direction: row;
+       
+    }
+    
+    #blueBox
+    {
+        background-color: var(--blue);
+        height: 1000px;
+        
+        
+    }
+    
+    #whiteBox2
+    {
+        background-color: var(--blanc);
+        height: 1000px;
+        flex-direction: row;
+    }
+    
+    #pinkBox2
+    {
+        background-color: var(--rose);
+        height: 1000px;
+        flex-direction: row;
+    }
+    
+    #pinkBoxContact
+    {
+        background-color: var(--rose);
+        height: 1000px;
+        
+        
+    }
+    /*END*/
+    
+    /*Btn*/
+    #btn-cv
+    {
+        margin-left: 3%;
+    }
+    
+    #btn-pinkBox1
+    {
+        margin-top: 70%;
+    }
+    
+    #btn-whiteBox1
+    {
+        margin-left: 35%;
+        margin-top: 3%;
+    }
+    
+    #btn-whiteBox2
+    {
+        margin-left: 33%;
+        margin-top: 3%;
+    }
+    
+    #btn-blueBox
+    {
+        margin-left: 20%;
+        margin-top: 2%;
+    }
+    
+    #btn-pinkBox2
+    {
+        margin-top: 5%;
+        margin-left: 25%;
+    }
+    
+    /*Btn animation*/
+    .bn632-hover {
+        width: 110px;
+        font-size: 16px;
+        font-weight: 600;
+        padding-top: 0.6%;
+        color: #fff;
+        cursor: pointer;
+        margin: 20px;
+        height: 40px;
+        text-align:center;
+        border: none;
+        background-size: 300% 100%;
+        border-radius: 50px;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      
+      .bn632-hover:hover {
+        background-position: 100% 0;
+        moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+      }
+      
+      .bn632-hover:focus {
+        outline: none;
+      }
+      
+      .bn632-hover.bn27 {
+        background-image: linear-gradient(
+          to right,
+          #ed6ea0,
+          #ec8c69,
+          #f7186a,
+          #fbb03b
+        );
+        box-shadow: 0 4px 15px 0 rgba(236, 116, 149, 0.75);
+      }
+    /*btn-animation end*/
+    
+      footer
+    {
+        background-color: var(--vertLeger);
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    #copyRight
+    {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        margin-left: 85%;
+    } 
 
 }

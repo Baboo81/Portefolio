@@ -2,9 +2,9 @@
 
     function showResponsiveMenu() {
 
-            var menu = document.getElementById("topnav_responsive_menu");
-            var icon = document.getElementById("topnav_hamburger_icon");
-            var root = document.getElementById("root");
+            const menu = document.getElementById("topnav_responsive_menu");
+            const icon = document.getElementById("topnav_hamburger_icon");
+            const root = document.getElementById("root");
 
     if (menu.className === "") 
     {

@@ -1,4 +1,4 @@
-<script>
+
 
     function showResponsiveMenu() {
 
@@ -17,5 +17,3 @@
         root.style.overflowY = "";
   }
 }
-
-</script>

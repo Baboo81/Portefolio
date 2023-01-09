@@ -24,16 +24,12 @@ header
     display: flex;
     font-family: 'Notable', sans-serif;
     font-size: 3em;
-    
-    
 }
 
 section
 {
     display: flex;
 }
-
-
 
 .logo
 {
@@ -84,7 +80,6 @@ nav
     width: 60px;
     color: var(--black);
     margin-top: 190%;
-    
 }
 
  li a:hover
@@ -1038,8 +1033,8 @@ nav
 
     .logo
     {
-        height: 40%;
-        width: 40%;
+        height: 60%;
+        width: 60%;
         
     }
 
@@ -1064,7 +1059,7 @@ nav
     #name
     {
         font-size: 1em;
-        margin-left: -12%;
+        margin-left: -70%;
     }
 
     nav
@@ -1174,7 +1169,7 @@ nav
         height: 140px;
         width: 180px;
         margin-left: 45%;
-        margin-top: -42%;
+        margin-top: -82%;
     }
 
     #teams
@@ -1190,7 +1185,7 @@ nav
         display: flex;
         flex-direction: row;
         margin-left: 40%;
-        margin-top: -7%;
+        margin-top: -24%;
     }
 
     #p-blueBox

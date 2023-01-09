@@ -1379,7 +1379,7 @@ nav
     header
     {
         width: 100%;
-        height: auto;
+        height: 200px;
         font-size: 1em;
     }
 
@@ -1411,12 +1411,14 @@ nav
     #main-Title
     {
         font-size: 1.5em;
+
     }
 
     #name
     {
         font-size: 1.5em;
         margin-left: -12%;
+        margin-top: 25%;
     }
 
     nav
@@ -1434,10 +1436,10 @@ nav
 
     #chrisImg
     {
-        margin-left: 35%;
-        margin-top: 2%;
-        height: 140px;
-        width: 180px;;
+        margin-left: 60%;
+        margin-top: -55%;
+        height: 200px;
+        width: 280px;;
     }
     
     #title-pinkBox1
@@ -1447,7 +1449,7 @@ nav
     }
     .txt-pinkBox1
     {
-        margin-left: 25%;
+        margin-left: 5%;
     }
     /*END queries pinkBox1*/
 
@@ -1455,7 +1457,7 @@ nav
     #whiteBox1 
     {
         background-color: var(--blanc);
-        height: 530px;
+        height: 700px;
         width: 100%;
     }
 
@@ -1480,16 +1482,17 @@ nav
 
     .molenbeekImg
     {
-        margin-left: 70%;
-        height: 140px;
-        width: 180px;
+        margin-left: 90%;
+        margin-top: -5%;
+        height: 200px;
+        width: 280px;
     }
 
     #btn-whiteBox1
     {
         display: flex;
         flex-direction: row;
-        margin-left: 28%;
+        margin-left: 48%;
     }
 
     .icons-whiteBox1
@@ -1507,7 +1510,7 @@ nav
     #blueBox
     {
         width: 100%;
-        height: 600px;
+        height: 800px;
     }
     #title-blueBox
     {
@@ -1523,26 +1526,26 @@ nav
 
     .hackathonImg
     {
-        height: 140px;
-        width: 180px;
-        margin-left: 40%;
-        margin-top: -28%;
+        height: 200px;
+        width: 280px;
+        margin-left: 47%;
+        margin-top: -23%;
     }
 
     #teams
     {
-        height: 140px;
-        width: 180px;
-        margin-top: 0%;
-        margin-left: 65%;
+        height: 200px;
+        width: 280px;
+        margin-top: 5%;
+        margin-left: 55%;
     }
 
     #btn-blueBox
     {
         display: flex;
         flex-direction: row;
-        margin-left: 37%;
-        margin-top:-5%;
+        margin-left: 50%;
+        margin-top:1%;
     }
 
     #p-blueBox
@@ -1568,7 +1571,7 @@ nav
     #whiteBox2
     {
         width: 100%;
-        height: 470px;
+        height: 600px;
     }
     #title-whiteBox2
     {
@@ -1587,9 +1590,9 @@ nav
 
     .pokemonImg
     {
-        height: 140px;
-        width: 180px;
-        margin-left: 70%;
+        height: 200px;
+        width: 280px;
+        margin-left: 95%;
         margin-top: 0%;
     }
 
@@ -1597,7 +1600,7 @@ nav
     {
         display: flex;
         flex-direction: row;
-        margin-left: 28%;
+        margin-left: 50%;
         margin-top: 0%;
     }
 
@@ -1619,34 +1622,34 @@ nav
     #pinkBox2
     {
         width: 100%;
-        height: 430px;
+        height: 600px;
     }
     #title-pinkBox2
     {
-        font-size: .8em;
-        margin-left: 0%;
+        font-size: 1.2em;
+        margin-left: 5%;
     }
 
     .txt-pinkBox2 
     {
-        font-size: .7em;
-        margin-left: 6%;
+        font-size: 1em;
+        margin-left: 5%;
         margin-top: 0%;    
     }
 
     .apiImg
     {
-        height: 140px;
-        width: 180px;
-        margin-left: 37%;
-        margin-top: 0%;
+        height: 200px;
+        width: 280px;
+        margin-left: 47%;
+        margin-top: 5%;
     }
 
     #btn-pinkBox2
     {
         display: flex;
         flex-direction: row;
-        margin-left:30%;
+        margin-left:50%;
         margin-top: 0%;
     }
 
@@ -1720,7 +1723,7 @@ nav
    #copyRight
    {
     font-size: .6em;
-    margin-left: 65%;
+    margin-left: 90%;
     margin-top: 5%;
    }
 

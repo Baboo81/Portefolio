@@ -1167,7 +1167,7 @@ nav
         height: 140px;
         width: 180px;
         margin-left: 45%;
-        margin-top: -82%;
+        margin-top: -70%;
     }
 
     #teams
@@ -1183,7 +1183,7 @@ nav
         display: flex;
         flex-direction: row;
         margin-left: 40%;
-        margin-top: -24%;
+        margin-top: -20%;
     }
 
     #p-blueBox

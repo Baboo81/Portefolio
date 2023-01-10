@@ -89,7 +89,10 @@ nav
 }
 /*End navbar*/
 
-
+.topnav
+{
+    display: none;
+}
 
 /*Img*/
 #chrisImg
@@ -660,7 +663,7 @@ nav
     }
 
     /*Menu hamburger*/
-    
+
      /* Style the navigation menu */
 .topnav {
     overflow: hidden;
